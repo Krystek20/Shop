@@ -7,12 +7,48 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		FAE4DE0B21A1EAEF00A71C5A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE4DE0A21A1EAEF00A71C5A /* AppDelegate.swift */; };
-		FAE4DE0D21A1EAEF00A71C5A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE4DE0C21A1EAEF00A71C5A /* ViewController.swift */; };
+		FA5502A421A4777D00ECE155 /* R3PISegueHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5502A321A4777D00ECE155 /* R3PISegueHelper.swift */; };
+		FA5502A821A47A9500ECE155 /* R3PIProductListViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5502A721A47A9500ECE155 /* R3PIProductListViewControllerTests.swift */; };
+		FA5502AB21A47C8E00ECE155 /* R3PIProductListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5502AA21A47C8E00ECE155 /* R3PIProductListViewController.swift */; };
+		FA5502AD21A47D8A00ECE155 /* R3PIProductListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5502AC21A47D8A00ECE155 /* R3PIProductListView.swift */; };
+		FA7884AB21A4819A008A545E /* R3PITableViewHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7884AA21A4819A008A545E /* R3PITableViewHelper.swift */; };
+		FA7884AD21A48C0A008A545E /* R3PIProductListDataSourceSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7884AC21A48C0A008A545E /* R3PIProductListDataSourceSettings.swift */; };
+		FA7884B021A4BC79008A545E /* R3PIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7884AF21A4BC79008A545E /* R3PIButton.swift */; };
+		FA7884DC21A5A660008A545E /* R3PISummaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7884DB21A5A660008A545E /* R3PISummaryViewController.swift */; };
+		FA7884DE21A5AFA0008A545E /* R3PISummaryViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7884DD21A5AFA0008A545E /* R3PISummaryViewControllerTests.swift */; };
+		FA7884E021A5B10A008A545E /* R3PISummaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7884DF21A5B10A008A545E /* R3PISummaryView.swift */; };
+		FA7884E221A5B622008A545E /* R3PIAcceptButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7884E121A5B622008A545E /* R3PIAcceptButton.swift */; };
+		FA7884E421A5C531008A545E /* R3PIExchangePriceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7884E321A5C531008A545E /* R3PIExchangePriceTests.swift */; };
+		FA7884E621A5C5EA008A545E /* R3PICurrency.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7884E521A5C5EA008A545E /* R3PICurrency.swift */; };
+		FA7884EA21A5C756008A545E /* R3PIExachnagePrice.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7884E921A5C756008A545E /* R3PIExachnagePrice.swift */; };
+		FA7884EC21A5CA0D008A545E /* R3PICurrencyListViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7884EB21A5CA0D008A545E /* R3PICurrencyListViewControllerTests.swift */; };
+		FA7884EE21A5CA64008A545E /* R3PICurrencyListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7884ED21A5CA64008A545E /* R3PICurrencyListViewController.swift */; };
+		FA7884F021A5CCA6008A545E /* R3PICurrencyListDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7884EF21A5CCA6008A545E /* R3PICurrencyListDataSource.swift */; };
+		FA7884F221A5CFB9008A545E /* R3PIActivityIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7884F121A5CFB9008A545E /* R3PIActivityIndicatorView.swift */; };
+		FA7884F621A5E877008A545E /* R3PIApiClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7884F521A5E877008A545E /* R3PIApiClient.swift */; };
+		FADF80D721A5F3A700C0CA2F /* R3PICurrencyListResponseBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADF80D621A5F3A700C0CA2F /* R3PICurrencyListResponseBuilder.swift */; };
+		FADF80D921A5F41500C0CA2F /* R3PICurrencyResponseBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADF80D821A5F41500C0CA2F /* R3PICurrencyResponseBuilder.swift */; };
+		FADF80DB21A5F45500C0CA2F /* R3PICurrencyListResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADF80DA21A5F45500C0CA2F /* R3PICurrencyListResponseModel.swift */; };
+		FADF80DE21A5FB0000C0CA2F /* R3PICurrencyListApiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADF80DD21A5FB0000C0CA2F /* R3PICurrencyListApiTests.swift */; };
+		FADF80E121A5FD9900C0CA2F /* R3PICurrencyCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADF80E021A5FD9900C0CA2F /* R3PICurrencyCellView.swift */; };
+		FADF80E521A609ED00C0CA2F /* R3PITestApiHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADF80E421A609ED00C0CA2F /* R3PITestApiHelper.swift */; };
+		FAE4DE0B21A1EAEF00A71C5A /* R3PIAppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE4DE0A21A1EAEF00A71C5A /* R3PIAppDelegate.swift */; };
+		FAE4DE0D21A1EAEF00A71C5A /* R3PICartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE4DE0C21A1EAEF00A71C5A /* R3PICartViewController.swift */; };
 		FAE4DE1021A1EAEF00A71C5A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAE4DE0E21A1EAEF00A71C5A /* Main.storyboard */; };
 		FAE4DE1221A1EAF100A71C5A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAE4DE1121A1EAF100A71C5A /* Assets.xcassets */; };
 		FAE4DE1521A1EAF100A71C5A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAE4DE1321A1EAF100A71C5A /* LaunchScreen.storyboard */; };
-		FAE4DE2021A1EAF100A71C5A /* R3PI_MagicBasketTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE4DE1F21A1EAF100A71C5A /* R3PI_MagicBasketTests.swift */; };
+		FAE4DE2F21A1EE8A00A71C5A /* R3PICartViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE4DE2E21A1EE8A00A71C5A /* R3PICartViewControllerTests.swift */; };
+		FAE4DE3221A1F65100A71C5A /* R3PICartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE4DE3121A1F65100A71C5A /* R3PICartView.swift */; };
+		FAE4DE4421A31A6D00A71C5A /* R3PIProductListDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE4DE4321A31A6D00A71C5A /* R3PIProductListDataSource.swift */; };
+		FAE4DE4621A31B2200A71C5A /* R3PIProductListDataSourceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE4DE4521A31B2200A71C5A /* R3PIProductListDataSourceTests.swift */; };
+		FAE4DE4821A31C6600A71C5A /* R3PIProduct.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE4DE4721A31C6600A71C5A /* R3PIProduct.swift */; };
+		FAE4DE4A21A31E0B00A71C5A /* R3PIPrice.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE4DE4921A31E0B00A71C5A /* R3PIPrice.swift */; };
+		FAE4DE4C21A3224E00A71C5A /* R3PIProductTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE4DE4B21A3224E00A71C5A /* R3PIProductTests.swift */; };
+		FAE4DE4E21A322A400A71C5A /* R3PIPriceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE4DE4D21A322A400A71C5A /* R3PIPriceTests.swift */; };
+		FAE4DE5021A332C300A71C5A /* R3PIProductCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE4DE4F21A332C300A71C5A /* R3PIProductCellView.swift */; };
+		FAE4DE5321A336AC00A71C5A /* R3PIConst.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE4DE5221A336AC00A71C5A /* R3PIConst.swift */; };
+		FAE4DE5521A33CC300A71C5A /* R3PIProductCellView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAE4DE5421A33CC300A71C5A /* R3PIProductCellView.xib */; };
+		FAE4DE5621A3402B00A71C5A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAE4DE1121A1EAF100A71C5A /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,16 +62,51 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FA5502A321A4777D00ECE155 /* R3PISegueHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = R3PISegueHelper.swift; sourceTree = "<group>"; };
+		FA5502A721A47A9500ECE155 /* R3PIProductListViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = R3PIProductListViewControllerTests.swift; sourceTree = "<group>"; };
+		FA5502AA21A47C8E00ECE155 /* R3PIProductListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = R3PIProductListViewController.swift; sourceTree = "<group>"; };
+		FA5502AC21A47D8A00ECE155 /* R3PIProductListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = R3PIProductListView.swift; sourceTree = "<group>"; };
+		FA7884AA21A4819A008A545E /* R3PITableViewHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = R3PITableViewHelper.swift; sourceTree = "<group>"; };
+		FA7884AC21A48C0A008A545E /* R3PIProductListDataSourceSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = R3PIProductListDataSourceSettings.swift; sourceTree = "<group>"; };
+		FA7884AF21A4BC79008A545E /* R3PIButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = R3PIButton.swift; sourceTree = "<group>"; };
+		FA7884DB21A5A660008A545E /* R3PISummaryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = R3PISummaryViewController.swift; sourceTree = "<group>"; };
+		FA7884DD21A5AFA0008A545E /* R3PISummaryViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = R3PISummaryViewControllerTests.swift; sourceTree = "<group>"; };
+		FA7884DF21A5B10A008A545E /* R3PISummaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = R3PISummaryView.swift; sourceTree = "<group>"; };
+		FA7884E121A5B622008A545E /* R3PIAcceptButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = R3PIAcceptButton.swift; sourceTree = "<group>"; };
+		FA7884E321A5C531008A545E /* R3PIExchangePriceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = R3PIExchangePriceTests.swift; sourceTree = "<group>"; };
+		FA7884E521A5C5EA008A545E /* R3PICurrency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = R3PICurrency.swift; sourceTree = "<group>"; };
+		FA7884E921A5C756008A545E /* R3PIExachnagePrice.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = R3PIExachnagePrice.swift; sourceTree = "<group>"; };
+		FA7884EB21A5CA0D008A545E /* R3PICurrencyListViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = R3PICurrencyListViewControllerTests.swift; sourceTree = "<group>"; };
+		FA7884ED21A5CA64008A545E /* R3PICurrencyListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = R3PICurrencyListViewController.swift; sourceTree = "<group>"; };
+		FA7884EF21A5CCA6008A545E /* R3PICurrencyListDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = R3PICurrencyListDataSource.swift; sourceTree = "<group>"; };
+		FA7884F121A5CFB9008A545E /* R3PIActivityIndicatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = R3PIActivityIndicatorView.swift; sourceTree = "<group>"; };
+		FA7884F521A5E877008A545E /* R3PIApiClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = R3PIApiClient.swift; sourceTree = "<group>"; };
+		FADF80D621A5F3A700C0CA2F /* R3PICurrencyListResponseBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = R3PICurrencyListResponseBuilder.swift; sourceTree = "<group>"; };
+		FADF80D821A5F41500C0CA2F /* R3PICurrencyResponseBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = R3PICurrencyResponseBuilder.swift; sourceTree = "<group>"; };
+		FADF80DA21A5F45500C0CA2F /* R3PICurrencyListResponseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = R3PICurrencyListResponseModel.swift; sourceTree = "<group>"; };
+		FADF80DD21A5FB0000C0CA2F /* R3PICurrencyListApiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = R3PICurrencyListApiTests.swift; sourceTree = "<group>"; };
+		FADF80E021A5FD9900C0CA2F /* R3PICurrencyCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = R3PICurrencyCellView.swift; sourceTree = "<group>"; };
+		FADF80E421A609ED00C0CA2F /* R3PITestApiHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = R3PITestApiHelper.swift; sourceTree = "<group>"; };
 		FAE4DE0721A1EAEF00A71C5A /* R3PI_MagicBasket.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = R3PI_MagicBasket.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		FAE4DE0A21A1EAEF00A71C5A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		FAE4DE0C21A1EAEF00A71C5A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FAE4DE0A21A1EAEF00A71C5A /* R3PIAppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = R3PIAppDelegate.swift; sourceTree = "<group>"; };
+		FAE4DE0C21A1EAEF00A71C5A /* R3PICartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = R3PICartViewController.swift; sourceTree = "<group>"; };
 		FAE4DE0F21A1EAEF00A71C5A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FAE4DE1121A1EAF100A71C5A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FAE4DE1421A1EAF100A71C5A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FAE4DE1621A1EAF100A71C5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FAE4DE1B21A1EAF100A71C5A /* R3PI_MagicBasketTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = R3PI_MagicBasketTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		FAE4DE1F21A1EAF100A71C5A /* R3PI_MagicBasketTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = R3PI_MagicBasketTests.swift; sourceTree = "<group>"; };
 		FAE4DE2121A1EAF100A71C5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAE4DE2E21A1EE8A00A71C5A /* R3PICartViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = R3PICartViewControllerTests.swift; sourceTree = "<group>"; };
+		FAE4DE3121A1F65100A71C5A /* R3PICartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = R3PICartView.swift; sourceTree = "<group>"; };
+		FAE4DE4321A31A6D00A71C5A /* R3PIProductListDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = R3PIProductListDataSource.swift; sourceTree = "<group>"; };
+		FAE4DE4521A31B2200A71C5A /* R3PIProductListDataSourceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = R3PIProductListDataSourceTests.swift; sourceTree = "<group>"; };
+		FAE4DE4721A31C6600A71C5A /* R3PIProduct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = R3PIProduct.swift; sourceTree = "<group>"; };
+		FAE4DE4921A31E0B00A71C5A /* R3PIPrice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = R3PIPrice.swift; sourceTree = "<group>"; };
+		FAE4DE4B21A3224E00A71C5A /* R3PIProductTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = R3PIProductTests.swift; sourceTree = "<group>"; };
+		FAE4DE4D21A322A400A71C5A /* R3PIPriceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = R3PIPriceTests.swift; sourceTree = "<group>"; };
+		FAE4DE4F21A332C300A71C5A /* R3PIProductCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = R3PIProductCellView.swift; sourceTree = "<group>"; };
+		FAE4DE5221A336AC00A71C5A /* R3PIConst.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = R3PIConst.swift; sourceTree = "<group>"; };
+		FAE4DE5421A33CC300A71C5A /* R3PIProductCellView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = R3PIProductCellView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +127,83 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FA5502A221A4773A00ECE155 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				FA5502A321A4777D00ECE155 /* R3PISegueHelper.swift */,
+				FA7884AA21A4819A008A545E /* R3PITableViewHelper.swift */,
+				FADF80E421A609ED00C0CA2F /* R3PITestApiHelper.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		FA5502A921A47ABC00ECE155 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				FAE4DE2E21A1EE8A00A71C5A /* R3PICartViewControllerTests.swift */,
+				FA5502A721A47A9500ECE155 /* R3PIProductListViewControllerTests.swift */,
+				FA7884DD21A5AFA0008A545E /* R3PISummaryViewControllerTests.swift */,
+				FA7884EB21A5CA0D008A545E /* R3PICurrencyListViewControllerTests.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		FA7884AE21A4BC67008A545E /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				FA7884AF21A4BC79008A545E /* R3PIButton.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		FA7884DA21A5A011008A545E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FAE4DE4521A31B2200A71C5A /* R3PIProductListDataSourceTests.swift */,
+				FAE4DE4B21A3224E00A71C5A /* R3PIProductTests.swift */,
+				FAE4DE4D21A322A400A71C5A /* R3PIPriceTests.swift */,
+				FA7884E321A5C531008A545E /* R3PIExchangePriceTests.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FA7884F321A5CFC3008A545E /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				FA7884F121A5CFB9008A545E /* R3PIActivityIndicatorView.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		FA7884F421A5E86B008A545E /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				FA7884F521A5E877008A545E /* R3PIApiClient.swift */,
+				FADF80D621A5F3A700C0CA2F /* R3PICurrencyListResponseBuilder.swift */,
+				FADF80D821A5F41500C0CA2F /* R3PICurrencyResponseBuilder.swift */,
+				FADF80DA21A5F45500C0CA2F /* R3PICurrencyListResponseModel.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		FADF80DC21A5FAD300C0CA2F /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				FADF80DD21A5FB0000C0CA2F /* R3PICurrencyListApiTests.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		FADF80DF21A5FD8400C0CA2F /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				FAE4DE4F21A332C300A71C5A /* R3PIProductCellView.swift */,
+				FAE4DE5421A33CC300A71C5A /* R3PIProductCellView.xib */,
+				FADF80E021A5FD9900C0CA2F /* R3PICurrencyCellView.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
 		FAE4DDFE21A1EAEF00A71C5A = {
 			isa = PBXGroup;
 			children = (
@@ -77,12 +225,13 @@
 		FAE4DE0921A1EAEF00A71C5A /* R3PI_MagicBasket */ = {
 			isa = PBXGroup;
 			children = (
-				FAE4DE0A21A1EAEF00A71C5A /* AppDelegate.swift */,
-				FAE4DE0C21A1EAEF00A71C5A /* ViewController.swift */,
-				FAE4DE0E21A1EAEF00A71C5A /* Main.storyboard */,
-				FAE4DE1121A1EAF100A71C5A /* Assets.xcassets */,
-				FAE4DE1321A1EAF100A71C5A /* LaunchScreen.storyboard */,
-				FAE4DE1621A1EAF100A71C5A /* Info.plist */,
+				FA7884F421A5E86B008A545E /* Service */,
+				FA7884F321A5CFC3008A545E /* Extension */,
+				FA7884AE21A4BC67008A545E /* Helper */,
+				FAE4DE2D21A1EBED00A71C5A /* Support Files */,
+				FAE4DE2C21A1EB8700A71C5A /* Controller */,
+				FAE4DE2B21A1EB8300A71C5A /* View */,
+				FAE4DE2A21A1EB7D00A71C5A /* Model */,
 			);
 			path = R3PI_MagicBasket;
 			sourceTree = "<group>";
@@ -90,10 +239,63 @@
 		FAE4DE1E21A1EAF100A71C5A /* R3PI_MagicBasketTests */ = {
 			isa = PBXGroup;
 			children = (
-				FAE4DE1F21A1EAF100A71C5A /* R3PI_MagicBasketTests.swift */,
+				FADF80DC21A5FAD300C0CA2F /* Service */,
+				FA5502A921A47ABC00ECE155 /* Controller */,
+				FA5502A221A4773A00ECE155 /* Helper */,
 				FAE4DE2121A1EAF100A71C5A /* Info.plist */,
+				FA7884DA21A5A011008A545E /* Model */,
 			);
 			path = R3PI_MagicBasketTests;
+			sourceTree = "<group>";
+		};
+		FAE4DE2A21A1EB7D00A71C5A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FA7884E921A5C756008A545E /* R3PIExachnagePrice.swift */,
+				FAE4DE5221A336AC00A71C5A /* R3PIConst.swift */,
+				FAE4DE4321A31A6D00A71C5A /* R3PIProductListDataSource.swift */,
+				FAE4DE4721A31C6600A71C5A /* R3PIProduct.swift */,
+				FAE4DE4921A31E0B00A71C5A /* R3PIPrice.swift */,
+				FA7884AC21A48C0A008A545E /* R3PIProductListDataSourceSettings.swift */,
+				FA7884E521A5C5EA008A545E /* R3PICurrency.swift */,
+				FA7884EF21A5CCA6008A545E /* R3PICurrencyListDataSource.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FAE4DE2B21A1EB8300A71C5A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FAE4DE0E21A1EAEF00A71C5A /* Main.storyboard */,
+				FAE4DE1321A1EAF100A71C5A /* LaunchScreen.storyboard */,
+				FAE4DE3121A1F65100A71C5A /* R3PICartView.swift */,
+				FADF80DF21A5FD8400C0CA2F /* Cell */,
+				FA5502AC21A47D8A00ECE155 /* R3PIProductListView.swift */,
+				FA7884DF21A5B10A008A545E /* R3PISummaryView.swift */,
+				FA7884E121A5B622008A545E /* R3PIAcceptButton.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FAE4DE2C21A1EB8700A71C5A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				FAE4DE0C21A1EAEF00A71C5A /* R3PICartViewController.swift */,
+				FA5502AA21A47C8E00ECE155 /* R3PIProductListViewController.swift */,
+				FA7884DB21A5A660008A545E /* R3PISummaryViewController.swift */,
+				FA7884ED21A5CA64008A545E /* R3PICurrencyListViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		FAE4DE2D21A1EBED00A71C5A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FAE4DE1621A1EAF100A71C5A /* Info.plist */,
+				FAE4DE1121A1EAF100A71C5A /* Assets.xcassets */,
+				FAE4DE0A21A1EAEF00A71C5A /* R3PIAppDelegate.swift */,
+			);
+			path = "Support Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,6 +342,7 @@
 		FAE4DDFF21A1EAEF00A71C5A /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = R3PI;
 				LastSwiftUpdateCheck = 1010;
 				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = "Krystian Solarz";
@@ -149,6 +352,7 @@
 					};
 					FAE4DE1A21A1EAF100A71C5A = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1010;
 						TestTargetID = FAE4DE0621A1EAEF00A71C5A;
 					};
 				};
@@ -179,6 +383,7 @@
 			files = (
 				FAE4DE1521A1EAF100A71C5A /* LaunchScreen.storyboard in Resources */,
 				FAE4DE1221A1EAF100A71C5A /* Assets.xcassets in Resources */,
+				FAE4DE5521A33CC300A71C5A /* R3PIProductCellView.xib in Resources */,
 				FAE4DE1021A1EAEF00A71C5A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -187,6 +392,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAE4DE5621A3402B00A71C5A /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -197,8 +403,31 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FAE4DE0D21A1EAEF00A71C5A /* ViewController.swift in Sources */,
-				FAE4DE0B21A1EAEF00A71C5A /* AppDelegate.swift in Sources */,
+				FA5502AB21A47C8E00ECE155 /* R3PIProductListViewController.swift in Sources */,
+				FA7884F221A5CFB9008A545E /* R3PIActivityIndicatorView.swift in Sources */,
+				FA7884E021A5B10A008A545E /* R3PISummaryView.swift in Sources */,
+				FADF80E121A5FD9900C0CA2F /* R3PICurrencyCellView.swift in Sources */,
+				FA7884DC21A5A660008A545E /* R3PISummaryViewController.swift in Sources */,
+				FAE4DE4421A31A6D00A71C5A /* R3PIProductListDataSource.swift in Sources */,
+				FAE4DE5021A332C300A71C5A /* R3PIProductCellView.swift in Sources */,
+				FA7884E221A5B622008A545E /* R3PIAcceptButton.swift in Sources */,
+				FA7884E621A5C5EA008A545E /* R3PICurrency.swift in Sources */,
+				FADF80D921A5F41500C0CA2F /* R3PICurrencyResponseBuilder.swift in Sources */,
+				FA7884F021A5CCA6008A545E /* R3PICurrencyListDataSource.swift in Sources */,
+				FAE4DE0D21A1EAEF00A71C5A /* R3PICartViewController.swift in Sources */,
+				FADF80DB21A5F45500C0CA2F /* R3PICurrencyListResponseModel.swift in Sources */,
+				FA5502AD21A47D8A00ECE155 /* R3PIProductListView.swift in Sources */,
+				FA7884F621A5E877008A545E /* R3PIApiClient.swift in Sources */,
+				FA7884AD21A48C0A008A545E /* R3PIProductListDataSourceSettings.swift in Sources */,
+				FAE4DE3221A1F65100A71C5A /* R3PICartView.swift in Sources */,
+				FA7884EE21A5CA64008A545E /* R3PICurrencyListViewController.swift in Sources */,
+				FA7884EA21A5C756008A545E /* R3PIExachnagePrice.swift in Sources */,
+				FAE4DE0B21A1EAEF00A71C5A /* R3PIAppDelegate.swift in Sources */,
+				FAE4DE4821A31C6600A71C5A /* R3PIProduct.swift in Sources */,
+				FA7884B021A4BC79008A545E /* R3PIButton.swift in Sources */,
+				FADF80D721A5F3A700C0CA2F /* R3PICurrencyListResponseBuilder.swift in Sources */,
+				FAE4DE4A21A31E0B00A71C5A /* R3PIPrice.swift in Sources */,
+				FAE4DE5321A336AC00A71C5A /* R3PIConst.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -206,7 +435,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FAE4DE2021A1EAF100A71C5A /* R3PI_MagicBasketTests.swift in Sources */,
+				FA7884E421A5C531008A545E /* R3PIExchangePriceTests.swift in Sources */,
+				FAE4DE4621A31B2200A71C5A /* R3PIProductListDataSourceTests.swift in Sources */,
+				FA7884AB21A4819A008A545E /* R3PITableViewHelper.swift in Sources */,
+				FA7884EC21A5CA0D008A545E /* R3PICurrencyListViewControllerTests.swift in Sources */,
+				FAE4DE4C21A3224E00A71C5A /* R3PIProductTests.swift in Sources */,
+				FAE4DE2F21A1EE8A00A71C5A /* R3PICartViewControllerTests.swift in Sources */,
+				FADF80E521A609ED00C0CA2F /* R3PITestApiHelper.swift in Sources */,
+				FA5502A421A4777D00ECE155 /* R3PISegueHelper.swift in Sources */,
+				FADF80DE21A5FB0000C0CA2F /* R3PICurrencyListApiTests.swift in Sources */,
+				FA7884DE21A5AFA0008A545E /* R3PISummaryViewControllerTests.swift in Sources */,
+				FA5502A821A47A9500ECE155 /* R3PIProductListViewControllerTests.swift in Sources */,
+				FAE4DE4E21A322A400A71C5A /* R3PIPriceTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -362,7 +602,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = HQ63E3X3P6;
-				INFOPLIST_FILE = R3PI_MagicBasket/Info.plist;
+				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
+				INFOPLIST_FILE = "R3PI_MagicBasket/Support Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -380,7 +621,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = HQ63E3X3P6;
-				INFOPLIST_FILE = R3PI_MagicBasket/Info.plist;
+				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
+				INFOPLIST_FILE = "R3PI_MagicBasket/Support Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -397,6 +639,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = HQ63E3X3P6;
 				INFOPLIST_FILE = R3PI_MagicBasketTests/Info.plist;
@@ -407,6 +650,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "me.mobilove.R3PI-MagicBasketTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/R3PI_MagicBasket.app/R3PI_MagicBasket";
@@ -418,6 +662,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = HQ63E3X3P6;
 				INFOPLIST_FILE = R3PI_MagicBasketTests/Info.plist;

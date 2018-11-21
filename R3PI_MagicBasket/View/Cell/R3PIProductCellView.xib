@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="R3PIProductCellViewIdentifier" rowHeight="90" id="ZMy-67-eDF" customClass="R3PIProductCellView" customModule="R3PI_MagicBasket" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="90"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="ZMy-67-eDF" id="av3-9y-6yK">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="89.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Vzf-Pe-cDk">
+                        <rect key="frame" x="10" y="20" width="50" height="50"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="50" id="R2s-ID-lT3"/>
+                            <constraint firstAttribute="height" constant="50" id="o7u-AE-E6e"/>
+                        </constraints>
+                    </imageView>
+                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="Z8g-7B-Bdl">
+                        <rect key="frame" x="70" y="25.5" width="177.5" height="38.5"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a4X-pb-Tfb">
+                                <rect key="frame" x="0.0" y="0.0" width="177.5" height="20.5"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
+                                <color key="textColor" name="r3piLightGreyColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bbU-AH-XBV">
+                                <rect key="frame" x="0.0" y="20.5" width="177.5" height="18"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleSubhead"/>
+                                <color key="textColor" name="r3piLightGreyColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                    </stackView>
+                    <stackView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" horizontalCompressionResistancePriority="1000" distribution="fillProportionally" translatesAutoresizingMaskIntoConstraints="NO" id="B3x-Zn-wZc">
+                        <rect key="frame" x="257.5" y="20" width="107.5" height="50"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ugw-wN-CHb" customClass="R3PIButton" customModule="R3PI_MagicBasket" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="eg0-Vu-j6P"/>
+                                    <constraint firstAttribute="width" constant="50" id="rzD-Nz-yGg"/>
+                                </constraints>
+                                <inset key="contentEdgeInsets" minX="15" minY="15" maxX="15" maxY="15"/>
+                                <state key="normal" image="plusIcon">
+                                    <color key="titleColor" name="r3piLightGreyColor"/>
+                                </state>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ire-4b-c6W">
+                                <rect key="frame" x="50" y="0.0" width="7.5" height="50"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleSubhead"/>
+                                <color key="textColor" name="r3piLightGreyColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LTP-4e-CYD" customClass="R3PIButton" customModule="R3PI_MagicBasket" customModuleProvider="target">
+                                <rect key="frame" x="57.5" y="0.0" width="50" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="Cae-Ch-39T"/>
+                                    <constraint firstAttribute="width" constant="50" id="Fwq-6p-u72"/>
+                                </constraints>
+                                <inset key="contentEdgeInsets" minX="15" minY="15" maxX="15" maxY="15"/>
+                                <state key="normal" image="minusIcon">
+                                    <color key="titleColor" name="r3piLightGreyColor"/>
+                                </state>
+                            </button>
+                        </subviews>
+                    </stackView>
+                </subviews>
+                <color key="backgroundColor" name="r3piNavyBlueColor"/>
+                <constraints>
+                    <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="B3x-Zn-wZc" secondAttribute="bottom" constant="10" id="3eS-pg-CPX"/>
+                    <constraint firstItem="Z8g-7B-Bdl" firstAttribute="top" relation="greaterThanOrEqual" secondItem="av3-9y-6yK" secondAttribute="top" constant="10" id="6Xd-5y-QBC"/>
+                    <constraint firstItem="Z8g-7B-Bdl" firstAttribute="leading" secondItem="Vzf-Pe-cDk" secondAttribute="trailing" constant="10" id="Bwn-HB-5x2"/>
+                    <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="Z8g-7B-Bdl" secondAttribute="bottom" constant="10" id="Fbv-i4-O89"/>
+                    <constraint firstItem="Vzf-Pe-cDk" firstAttribute="top" relation="greaterThanOrEqual" secondItem="av3-9y-6yK" secondAttribute="top" constant="10" id="Lxe-pT-iXf"/>
+                    <constraint firstItem="Vzf-Pe-cDk" firstAttribute="leading" secondItem="av3-9y-6yK" secondAttribute="leading" constant="10" id="P0i-Ke-1d6"/>
+                    <constraint firstItem="B3x-Zn-wZc" firstAttribute="leading" secondItem="Z8g-7B-Bdl" secondAttribute="trailing" constant="10" id="Rqh-sT-KSh"/>
+                    <constraint firstAttribute="trailing" relation="lessThanOrEqual" secondItem="B3x-Zn-wZc" secondAttribute="trailing" constant="10" id="TeS-68-rFW"/>
+                    <constraint firstItem="B3x-Zn-wZc" firstAttribute="top" relation="greaterThanOrEqual" secondItem="av3-9y-6yK" secondAttribute="top" constant="10" id="TsQ-7b-Hnr"/>
+                    <constraint firstItem="Vzf-Pe-cDk" firstAttribute="centerY" secondItem="av3-9y-6yK" secondAttribute="centerY" id="eEY-um-8h1"/>
+                    <constraint firstItem="Z8g-7B-Bdl" firstAttribute="centerY" secondItem="av3-9y-6yK" secondAttribute="centerY" id="tLw-BF-lME"/>
+                    <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="Vzf-Pe-cDk" secondAttribute="bottom" constant="10" id="uPo-Op-z0H"/>
+                    <constraint firstItem="B3x-Zn-wZc" firstAttribute="centerY" secondItem="av3-9y-6yK" secondAttribute="centerY" id="yAV-W5-T48"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <connections>
+                <outlet property="counterLabel" destination="Ire-4b-c6W" id="dOS-mN-rWn"/>
+                <outlet property="counterView" destination="B3x-Zn-wZc" id="VFK-G5-OQW"/>
+                <outlet property="minusButton" destination="LTP-4e-CYD" id="RMD-At-pDM"/>
+                <outlet property="nameLabel" destination="a4X-pb-Tfb" id="seW-N7-GO6"/>
+                <outlet property="plusButton" destination="ugw-wN-CHb" id="8Kp-bF-g6e"/>
+                <outlet property="priceLabel" destination="bbU-AH-XBV" id="dFd-ZD-dXW"/>
+                <outlet property="productImageView" destination="Vzf-Pe-cDk" id="5lv-5y-uIX"/>
+            </connections>
+            <point key="canvasLocation" x="-55.200000000000003" y="83.658170914542737"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="minusIcon" width="32" height="32"/>
+        <image name="plusIcon" width="32" height="32"/>
+        <namedColor name="r3piLightGreyColor">
+            <color red="0.80800002813339233" green="0.98400002717971802" blue="0.90100002288818359" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="r3piNavyBlueColor">
+            <color red="0.070000000298023224" green="0.10599999874830246" blue="0.13300000131130219" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>
